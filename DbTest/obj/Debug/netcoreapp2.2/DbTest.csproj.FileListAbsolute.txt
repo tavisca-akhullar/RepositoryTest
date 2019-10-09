@@ -1,0 +1,15 @@
+C:\Users\akhullar\source\repos\DbTest\DbTest\bin\Debug\netcoreapp2.2\DbTest.deps.json
+C:\Users\akhullar\source\repos\DbTest\DbTest\bin\Debug\netcoreapp2.2\DbTest.runtimeconfig.json
+C:\Users\akhullar\source\repos\DbTest\DbTest\bin\Debug\netcoreapp2.2\DbTest.runtimeconfig.dev.json
+C:\Users\akhullar\source\repos\DbTest\DbTest\bin\Debug\netcoreapp2.2\DbTest.dll
+C:\Users\akhullar\source\repos\DbTest\DbTest\obj\Debug\netcoreapp2.2\DbTest.csproj.CoreCompileInputs.cache
+C:\Users\akhullar\source\repos\DbTest\DbTest\obj\Debug\netcoreapp2.2\DbTest.RazorAssemblyInfo.cache
+C:\Users\akhullar\source\repos\DbTest\DbTest\obj\Debug\netcoreapp2.2\DbTest.RazorAssemblyInfo.cs
+C:\Users\akhullar\source\repos\DbTest\DbTest\obj\Debug\netcoreapp2.2\DbTest.AssemblyInfoInputs.cache
+C:\Users\akhullar\source\repos\DbTest\DbTest\obj\Debug\netcoreapp2.2\DbTest.AssemblyInfo.cs
+C:\Users\akhullar\source\repos\DbTest\DbTest\obj\Debug\netcoreapp2.2\DbTest.RazorTargetAssemblyInfo.cache
+C:\Users\akhullar\source\repos\DbTest\DbTest\bin\Debug\netcoreapp2.2\DbTest.pdb
+C:\Users\akhullar\source\repos\DbTest\DbTest\obj\Debug\netcoreapp2.2\DbTest.dll
+C:\Users\akhullar\source\repos\DbTest\DbTest\obj\Debug\netcoreapp2.2\DbTest.pdb
+C:\Users\akhullar\source\repos\DbTest\DbTest\obj\Debug\netcoreapp2.2\DbTest.csprojAssemblyReference.cache
+C:\Users\akhullar\source\repos\DbTest\DbTest\bin\Debug\netcoreapp2.2\NLog.config

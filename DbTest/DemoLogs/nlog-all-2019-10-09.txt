@@ -1,0 +1,126 @@
+2019-10-09 16:16:25.9988|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request starting HTTP/1.1 POST http://localhost:51273/api/user application/json 98|
+2019-10-09 16:16:25.9988|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executing endpoint 'DbTest.Controllers.UserController.Post (DbTest)'|
+2019-10-09 16:16:26.0429|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(DbTest.Models.User) on controller DbTest.Controllers.UserController (DbTest).|
+2019-10-09 16:16:26.4544|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executing action method DbTest.Controllers.UserController.Post (DbTest) - Validation state: Valid|
+2019-10-09 16:16:29.6936|INFO|DbTest.Repository.UserRepository|6|Adding userAman_297|
+2019-10-09 16:16:31.1590|INFO|Microsoft.EntityFrameworkCore.Infrastructure|6|Entity Framework Core 2.2.6-servicing-10079 initialized 'RepositoryContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None|
+2019-10-09 16:16:32.6454|INFO|Microsoft.EntityFrameworkCore.Database.Command|6|Executed DbCommand (38ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 60), @p2='?' (Size = 60)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `User` (`Id`, `Email`, `Name`)
+VALUES (@p0, @p1, @p2);|
+2019-10-09 16:16:32.6717|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action method DbTest.Controllers.UserController.Post (DbTest), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6214.4954ms.|
+2019-10-09 16:16:32.6717|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|6|Executing ObjectResult, writing value of type 'DbTest.Models.User'.|
+2019-10-09 16:16:32.6858|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action DbTest.Controllers.UserController.Post (DbTest) in 6640.2695ms|
+2019-10-09 16:16:32.6858|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executed endpoint 'DbTest.Controllers.UserController.Post (DbTest)'|
+2019-10-09 16:16:32.7061|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request finished in 6707.3626ms 200 application/json; charset=utf-8|
+2019-10-09 17:16:05.7473|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|1|User profile is available. Using 'C:\Users\akhullar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+2019-10-09 17:16:07.2276|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request starting HTTP/1.1 GET http://localhost:51273/api/values  |
+2019-10-09 17:16:07.2739|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|6|Failed to determine the https port for redirect.|
+2019-10-09 17:16:07.3281|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executing endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:16:07.3653|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller DbTest.Controllers.ValuesController (DbTest).|
+2019-10-09 17:16:07.3816|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executing action method DbTest.Controllers.ValuesController.Get (DbTest) - Validation state: Valid|
+2019-10-09 17:16:07.3816|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action method DbTest.Controllers.ValuesController.Get (DbTest), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5605ms.|
+2019-10-09 17:16:07.4034|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|6|Executing ObjectResult, writing value of type 'System.String[]'.|
+2019-10-09 17:16:07.5182|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action DbTest.Controllers.ValuesController.Get (DbTest) in 147.5235ms|
+2019-10-09 17:16:07.5182|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executed endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:16:07.5182|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request finished in 299.9823ms 200 application/json; charset=utf-8|
+2019-10-09 17:16:35.4499|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request starting HTTP/1.1 POST http://localhost:51273/api/user application/json 98|
+2019-10-09 17:16:35.4632|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executing endpoint 'DbTest.Controllers.UserController.Post (DbTest)'|
+2019-10-09 17:16:35.4906|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(DbTest.Models.User) on controller DbTest.Controllers.UserController (DbTest).|
+2019-10-09 17:16:37.1175|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executing action method DbTest.Controllers.UserController.Post (DbTest) - Validation state: Valid|
+2019-10-09 17:16:42.5970|INFO|DbTest.Repository.UserRepository|6|Adding user Aman_297|
+2019-10-09 17:16:44.2194|INFO|Microsoft.EntityFrameworkCore.Infrastructure|6|Entity Framework Core 2.2.6-servicing-10079 initialized 'RepositoryContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None|
+2019-10-09 17:16:45.0717|INFO|Microsoft.EntityFrameworkCore.Database.Command|6|Executed DbCommand (31ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 60), @p2='?' (Size = 60)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `User` (`Id`, `Email`, `Name`)
+VALUES (@p0, @p1, @p2);|
+2019-10-09 17:16:45.0911|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action method DbTest.Controllers.UserController.Post (DbTest), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7969.9222ms.|
+2019-10-09 17:16:45.0911|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|6|Executing ObjectResult, writing value of type 'DbTest.Models.User'.|
+2019-10-09 17:16:45.0965|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action DbTest.Controllers.UserController.Post (DbTest) in 9604.276ms|
+2019-10-09 17:16:45.0965|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executed endpoint 'DbTest.Controllers.UserController.Post (DbTest)'|
+2019-10-09 17:16:45.0965|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request finished in 9651.0102ms 200 application/json; charset=utf-8|
+2019-10-09 17:16:59.9456|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request starting HTTP/1.1 POST http://localhost:51273/api/user/15 application/json 96|
+2019-10-09 17:16:59.9456|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executing endpoint '405 HTTP Method Not Supported'|
+2019-10-09 17:16:59.9551|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executed endpoint '405 HTTP Method Not Supported'|
+2019-10-09 17:16:59.9802|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request finished in 34.55ms 405 |
+2019-10-09 17:17:06.3072|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|15|Request starting HTTP/1.1 PUT http://localhost:51273/api/user/15 application/json 96|
+2019-10-09 17:17:06.3153|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|15|Executing endpoint 'DbTest.Controllers.UserController.Put (DbTest)'|
+2019-10-09 17:17:06.3441|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|15|Route matched with {action = "Put", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Put(Int32, DbTest.Models.User) on controller DbTest.Controllers.UserController (DbTest).|
+2019-10-09 17:17:06.3737|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|15|Executing action method DbTest.Controllers.UserController.Put (DbTest) - Validation state: Valid|
+2019-10-09 17:17:06.3852|INFO|DbTest.Repository.UserRepository|15|Updating user with name Aman297|
+2019-10-09 17:17:06.3852|INFO|Microsoft.EntityFrameworkCore.Infrastructure|15|Entity Framework Core 2.2.6-servicing-10079 initialized 'RepositoryContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None|
+2019-10-09 17:17:06.5524|INFO|Microsoft.EntityFrameworkCore.Database.Command|15|Executed DbCommand (11ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`Email`, `e`.`Name`
+FROM `User` AS `e`
+WHERE `e`.`Id` = @__get_Item_0
+LIMIT 1|
+2019-10-09 17:17:06.6263|INFO|Microsoft.EntityFrameworkCore.Database.Command|15|Executed DbCommand (1ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 60), @p1='?' (Size = 60)], CommandType='Text', CommandTimeout='30']
+UPDATE `User` SET `Email` = @p0, `Name` = @p1
+WHERE `Id` = @p2;
+SELECT ROW_COUNT();|
+2019-10-09 17:17:06.6332|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|15|Executed action method DbTest.Controllers.UserController.Put (DbTest), returned result Microsoft.AspNetCore.Mvc.OkResult in 249.266ms.|
+2019-10-09 17:17:06.6332|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|15|Executing HttpStatusCodeResult, setting HTTP status code 200|
+2019-10-09 17:17:06.6332|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|15|Executed action DbTest.Controllers.UserController.Put (DbTest) in 286.9945ms|
+2019-10-09 17:17:06.6332|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|15|Executed endpoint 'DbTest.Controllers.UserController.Put (DbTest)'|
+2019-10-09 17:17:06.6642|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|15|Request finished in 357.0308ms 200 |
+2019-10-09 17:17:28.5594|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|11|Request starting HTTP/1.1 GET http://localhost:51273/api/values  |
+2019-10-09 17:17:28.5594|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|11|Executing endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:28.5594|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|11|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller DbTest.Controllers.ValuesController (DbTest).|
+2019-10-09 17:17:28.5716|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|11|Executing action method DbTest.Controllers.ValuesController.Get (DbTest) - Validation state: Valid|
+2019-10-09 17:17:28.5934|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|11|Executed action method DbTest.Controllers.ValuesController.Get (DbTest), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.6695ms.|
+2019-10-09 17:17:28.6046|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|11|Executing ObjectResult, writing value of type 'System.String[]'.|
+2019-10-09 17:17:28.6046|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|11|Executed action DbTest.Controllers.ValuesController.Get (DbTest) in 35.4783ms|
+2019-10-09 17:17:28.6046|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|11|Executed endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:28.6116|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|11|Request finished in 52.1371ms 200 application/json; charset=utf-8|
+2019-10-09 17:17:29.3297|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request starting HTTP/1.1 GET http://localhost:51273/api/values  |
+2019-10-09 17:17:29.3297|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executing endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:29.3297|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller DbTest.Controllers.ValuesController (DbTest).|
+2019-10-09 17:17:29.3297|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executing action method DbTest.Controllers.ValuesController.Get (DbTest) - Validation state: Valid|
+2019-10-09 17:17:29.3297|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action method DbTest.Controllers.ValuesController.Get (DbTest), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0169ms.|
+2019-10-09 17:17:29.3297|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|6|Executing ObjectResult, writing value of type 'System.String[]'.|
+2019-10-09 17:17:29.3297|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action DbTest.Controllers.ValuesController.Get (DbTest) in 5.7736ms|
+2019-10-09 17:17:29.3496|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executed endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:29.3496|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request finished in 22.6802ms 200 application/json; charset=utf-8|
+2019-10-09 17:17:29.7106|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request starting HTTP/1.1 GET http://localhost:51273/api/values  |
+2019-10-09 17:17:29.7106|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executing endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:29.7106|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller DbTest.Controllers.ValuesController (DbTest).|
+2019-10-09 17:17:29.7106|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executing action method DbTest.Controllers.ValuesController.Get (DbTest) - Validation state: Valid|
+2019-10-09 17:17:29.7106|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action method DbTest.Controllers.ValuesController.Get (DbTest), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0106ms.|
+2019-10-09 17:17:29.7255|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|6|Executing ObjectResult, writing value of type 'System.String[]'.|
+2019-10-09 17:17:29.7255|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action DbTest.Controllers.ValuesController.Get (DbTest) in 10.1271ms|
+2019-10-09 17:17:29.7255|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executed endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:29.7255|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request finished in 22.1372ms 200 application/json; charset=utf-8|
+2019-10-09 17:17:30.5515|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request starting HTTP/1.1 GET http://localhost:51273/api/values  |
+2019-10-09 17:17:30.5515|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executing endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:30.5515|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller DbTest.Controllers.ValuesController (DbTest).|
+2019-10-09 17:17:30.5515|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executing action method DbTest.Controllers.ValuesController.Get (DbTest) - Validation state: Valid|
+2019-10-09 17:17:30.5515|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action method DbTest.Controllers.ValuesController.Get (DbTest), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.013ms.|
+2019-10-09 17:17:30.5515|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|6|Executing ObjectResult, writing value of type 'System.String[]'.|
+2019-10-09 17:17:30.5515|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action DbTest.Controllers.ValuesController.Get (DbTest) in 5.5134ms|
+2019-10-09 17:17:30.5654|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executed endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:30.5654|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request finished in 17.3924ms 200 application/json; charset=utf-8|
+2019-10-09 17:17:31.0088|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request starting HTTP/1.1 GET http://localhost:51273/api/values  |
+2019-10-09 17:17:31.0088|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executing endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:31.0088|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller DbTest.Controllers.ValuesController (DbTest).|
+2019-10-09 17:17:31.0088|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executing action method DbTest.Controllers.ValuesController.Get (DbTest) - Validation state: Valid|
+2019-10-09 17:17:31.0088|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action method DbTest.Controllers.ValuesController.Get (DbTest), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0117ms.|
+2019-10-09 17:17:31.0197|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|6|Executing ObjectResult, writing value of type 'System.String[]'.|
+2019-10-09 17:17:31.0197|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action DbTest.Controllers.ValuesController.Get (DbTest) in 7.4217ms|
+2019-10-09 17:17:31.0197|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executed endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:31.0197|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request finished in 16.4866ms 200 application/json; charset=utf-8|
+2019-10-09 17:17:31.8051|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request starting HTTP/1.1 GET http://localhost:51273/api/values  |
+2019-10-09 17:17:31.8051|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executing endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:31.8051|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller DbTest.Controllers.ValuesController (DbTest).|
+2019-10-09 17:17:31.8051|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executing action method DbTest.Controllers.ValuesController.Get (DbTest) - Validation state: Valid|
+2019-10-09 17:17:31.8051|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action method DbTest.Controllers.ValuesController.Get (DbTest), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0091ms.|
+2019-10-09 17:17:31.8051|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|6|Executing ObjectResult, writing value of type 'System.String[]'.|
+2019-10-09 17:17:31.8182|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action DbTest.Controllers.ValuesController.Get (DbTest) in 7.1515ms|
+2019-10-09 17:17:31.8182|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executed endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:31.8182|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request finished in 17.5282ms 200 application/json; charset=utf-8|
+2019-10-09 17:17:32.3594|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request starting HTTP/1.1 GET http://localhost:51273/api/values  |
+2019-10-09 17:17:32.3621|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executing endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:32.3621|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller DbTest.Controllers.ValuesController (DbTest).|
+2019-10-09 17:17:32.3621|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executing action method DbTest.Controllers.ValuesController.Get (DbTest) - Validation state: Valid|
+2019-10-09 17:17:32.3621|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action method DbTest.Controllers.ValuesController.Get (DbTest), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0109ms.|
+2019-10-09 17:17:32.3621|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|6|Executing ObjectResult, writing value of type 'System.String[]'.|
+2019-10-09 17:17:32.3621|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|6|Executed action DbTest.Controllers.ValuesController.Get (DbTest) in 5.334ms|
+2019-10-09 17:17:32.3621|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|6|Executed endpoint 'DbTest.Controllers.ValuesController.Get (DbTest)'|
+2019-10-09 17:17:32.3768|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|6|Request finished in 17.1849ms 200 application/json; charset=utf-8|
